@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a080efe-58b9-4d83-8ebc-4ca05f7a465f" name="Changes" comment="atcz primer ex">
-      <change afterPath="$PROJECT_DIR$/Filter_e.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arch_txt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datos_recur.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map&amp;lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/suma_reduct.py" afterDir="false" />
+    <list default="true" id="7a080efe-58b9-4d83-8ebc-4ca05f7a465f" name="Changes" comment="wspace">
+      <change afterPath="$PROJECT_DIR$/datos.csv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMC.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contador_calls.py" beforeDir="false" afterPath="$PROJECT_DIR$/contador_calls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datos_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/datos_gen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfp.py" beforeDir="false" afterPath="$PROJECT_DIR$/pfp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scope_global.py" beforeDir="false" afterPath="$PROJECT_DIR$/scope_global.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arch_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/arch_txt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +49,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Filter_e.executor": "Run",
     "Python.IMC.executor": "Run",
+    "Python.arch_txt.executor": "Run",
     "Python.contador_calls.executor": "Run",
+    "Python.datos.csv.executor": "Run",
     "Python.datos_gen.executor": "Run",
     "Python.datos_recur.executor": "Run",
     "Python.list_dict.executor": "Run",
@@ -80,8 +73,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.list_dict">
-    <configuration name="Filter_e" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.datos.csv">
+    <configuration name="arch_txt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Yami_m3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +88,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Filter_e.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arch_txt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="datos.csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Yami_m3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datos.csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,29 +166,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scope_global" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Yami_m3" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scope_global.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="suma_reduct" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Yami_m3" />
       <option name="ENV_FILES" value="" />
@@ -198,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.datos.csv" />
+        <item itemvalue="Python.arch_txt" />
         <item itemvalue="Python.list_dict" />
         <item itemvalue="Python.datos_recur" />
         <item itemvalue="Python.suma_reduct" />
-        <item itemvalue="Python.Filter_e" />
-        <item itemvalue="Python.scope_global" />
       </list>
     </recent_temporary>
   </component>
@@ -223,18 +216,133 @@
       <updated>1761221395045</updated>
       <workItem from="1761221396087" duration="6940000" />
       <workItem from="1761305684612" duration="6499000" />
-      <workItem from="1761743679033" duration="8001000" />
+      <workItem from="1761743679033" duration="8506000" />
+      <workItem from="1761824207919" duration="10539000" />
     </task>
+    <task id="LOCAL-00001" summary="Primer ex">
+      <option name="closed" value="true" />
+      <created>1761755649369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761755649369</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Segundo ex">
+      <option name="closed" value="true" />
+      <created>1761755663449</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761755663449</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Tercer ex">
+      <option name="closed" value="true" />
+      <created>1761755678408</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761755678408</updated>
+    </task>
+    <task id="LOCAL-00004" summary="4to ex">
+      <option name="closed" value="true" />
+      <created>1761755994651</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761755994651</updated>
+    </task>
+    <task id="LOCAL-00005" summary="5to ex">
+      <option name="closed" value="true" />
+      <created>1761756011147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761756011147</updated>
+    </task>
+    <task id="LOCAL-00006" summary="6to ex">
+      <option name="closed" value="true" />
+      <created>1761756022586</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761756022586</updated>
+    </task>
+    <task id="LOCAL-00007" summary="7mo ex">
+      <option name="closed" value="true" />
+      <created>1761756056222</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761756056222</updated>
+    </task>
+    <task id="LOCAL-00008" summary="8vo ex">
+      <option name="closed" value="true" />
+      <created>1761756074057</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761756074057</updated>
+    </task>
+    <task id="LOCAL-00009" summary="9no ex">
+      <option name="closed" value="true" />
+      <created>1761756088009</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761756088009</updated>
+    </task>
+    <task id="LOCAL-00010" summary="10mo ex">
+      <option name="closed" value="true" />
+      <created>1761756103412</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761756103412</updated>
+    </task>
+    <task id="LOCAL-00011" summary="11vo ex">
+      <option name="closed" value="true" />
+      <created>1761756118797</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761756118797</updated>
+    </task>
+    <task id="LOCAL-00012" summary="wspace">
+      <option name="closed" value="true" />
+      <created>1761756130567</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1761756130567</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primer ex" />
+    <MESSAGE value="Segundo ex" />
+    <MESSAGE value="Tercer ex" />
+    <MESSAGE value="4to ex" />
+    <MESSAGE value="5to ex" />
+    <MESSAGE value="6to ex" />
+    <MESSAGE value="7mo ex" />
+    <MESSAGE value="8vo ex" />
+    <MESSAGE value="9no ex" />
+    <MESSAGE value="10mo ex" />
+    <MESSAGE value="11vo ex" />
+    <MESSAGE value="wspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="wspace" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Yami_m3$scope_global.coverage" NAME="scope_global Coverage Results" MODIFIED="1761568854766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Yami_m3$datos_recur.coverage" NAME="datos_recur Coverage Results" MODIFIED="1761751090162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Yami_m3$datos_csv.coverage" NAME="datos.csv Coverage Results" MODIFIED="1761838698348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Yami_m3$list_dict.coverage" NAME="list_dict Coverage Results" MODIFIED="1761755482282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Yami_m3$IMC.coverage" NAME="IMC Coverage Results" MODIFIED="1761308610153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Yami_m3$arch_txt.coverage" NAME="arch_txt Coverage Results" MODIFIED="1761828771935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Yami_m3$Filter_e.coverage" NAME="Filter_e Coverage Results" MODIFIED="1761744497455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Yami_m3$suma_reduct.coverage" NAME="suma_reduct Coverage Results" MODIFIED="1761750632613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
