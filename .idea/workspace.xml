@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a080efe-58b9-4d83-8ebc-4ca05f7a465f" name="Changes" comment="wspace">
-      <change afterPath="$PROJECT_DIR$/datos.csv.py" afterDir="false" />
+    <list default="true" id="7a080efe-58b9-4d83-8ebc-4ca05f7a465f" name="Changes" comment="15vo ex">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cursos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estudiantes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gene_reportes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventario.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persis_json.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arch_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/arch_txt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +37,12 @@
     &quot;assignee&quot;: &quot;Yamisipq&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Yamisipq/Yami_m3.git&quot;,
-    &quot;accountId&quot;: &quot;64aa5977-d41d-425f-9b6d-0c7dc8bef328&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Yamisipq/Yami_m3.git",
+    "accountId": "dfd4cf89-a36a-49c5-88b8-1830d6b7696b"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -47,14 +54,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Doctests in mini_sis_biblio.executor": "Run",
+    "Python tests.Doctests in sis_biblio.executor": "Run",
     "Python.Filter_e.executor": "Run",
     "Python.IMC.executor": "Run",
     "Python.arch_txt.executor": "Run",
+    "Python.biblioteca.executor": "Run",
     "Python.contador_calls.executor": "Run",
     "Python.datos.csv.executor": "Run",
     "Python.datos_gen.executor": "Run",
     "Python.datos_recur.executor": "Run",
+    "Python.gene_reportes.executor": "Run",
     "Python.list_dict.executor": "Run",
+    "Python.persis_json.executor": "Run",
     "Python.pfp.executor": "Run",
     "Python.scope_global.executor": "Run",
     "Python.suma_reduct.executor": "Run",
@@ -73,8 +85,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.datos.csv">
-    <configuration name="arch_txt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.biblioteca">
+    <configuration name="biblioteca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Yami_m3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,8 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arch_txt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/biblioteca.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="datos_recur" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gene_reportes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Yami_m3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,8 +144,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datos_recur.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gene_reportes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="list_dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="persis_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Yami_m3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,8 +166,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_dict.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/persis_json.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,43 +175,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="suma_reduct" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in sis_biblio" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="Yami_m3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/suma_reduct.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sis_biblio.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.biblioteca" />
+        <item itemvalue="Python tests.Doctests in sis_biblio" />
+        <item itemvalue="Python.gene_reportes" />
+        <item itemvalue="Python.persis_json" />
         <item itemvalue="Python.datos.csv" />
-        <item itemvalue="Python.arch_txt" />
-        <item itemvalue="Python.list_dict" />
-        <item itemvalue="Python.datos_recur" />
-        <item itemvalue="Python.suma_reduct" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-PY-252.26199.168" />
         <option value="bundled-python-sdk-b3d66beaba9a-c6efb3732140-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26199.168" />
       </set>
     </attachedChunks>
@@ -315,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761756130567</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="15vo ex">
+      <option name="closed" value="true" />
+      <created>1762296812168</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762296812168</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +346,8 @@
     <MESSAGE value="10mo ex" />
     <MESSAGE value="11vo ex" />
     <MESSAGE value="wspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="wspace" />
+    <MESSAGE value="15vo ex" />
+    <option name="LAST_COMMIT_MESSAGE" value="15vo ex" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Yami_m3$scope_global.coverage" NAME="scope_global Coverage Results" MODIFIED="1761568854766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
