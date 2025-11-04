@@ -1,0 +1,17 @@
+[
+  {
+    "id_curso": "P101",
+    "nombre_curso": "Introduccion a Python",
+    "estudiantes_ids": [1, 3, 4]
+  },
+  {
+    "id_curso": "B202",
+    "nombre_curso": "Bases de Datos SQL",
+    "estudiantes_ids": [2, 3]
+  },
+  {
+    "id_curso": "W303",
+    "nombre_curso": "Desarrollo Web con Flask",
+    "estudiantes_ids": [1, 4, 2]
+  }
+]
