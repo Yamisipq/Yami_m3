@@ -4,17 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a080efe-58b9-4d83-8ebc-4ca05f7a465f" name="Changes" comment="15vo ex">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cursos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estudiantes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gene_reportes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventario.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persis_json.py" afterDir="false" />
+    <list default="true" id="7a080efe-58b9-4d83-8ebc-4ca05f7a465f" name="Changes" comment="Configuraciones">
+      <change afterPath="$PROJECT_DIR$/test/test_arch_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_biblio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_contador_calls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_datos_csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_datos_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_datos_recur.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_dict_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_gen_reportes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_imc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_inventario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_map_lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_pfp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_scope_global.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_suma_reduct.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datos.csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/datos_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map&amp;lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/map_lambda.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="datos.csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="datos_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Yami_m3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,7 +130,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datos.csv.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\rosas\OneDrive\Escritorio\Yami_m3\datos_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +208,7 @@
         <item itemvalue="Python tests.Doctests in sis_biblio" />
         <item itemvalue="Python.gene_reportes" />
         <item itemvalue="Python.persis_json" />
-        <item itemvalue="Python.datos.csv" />
+        <item itemvalue="Python.datos_csv" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +335,47 @@
       <option name="project" value="LOCAL" />
       <updated>1762296812168</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="14vo ex">
+      <option name="closed" value="true" />
+      <created>1762296868416</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762296868416</updated>
+    </task>
+    <task id="LOCAL-00015" summary="13vo ex">
+      <option name="closed" value="true" />
+      <created>1762296882180</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1762296882180</updated>
+    </task>
+    <task id="LOCAL-00016" summary="data reportes">
+      <option name="closed" value="true" />
+      <created>1762296933198</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1762296933198</updated>
+    </task>
+    <task id="LOCAL-00017" summary="data inventario">
+      <option name="closed" value="true" />
+      <created>1762296951087</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1762296951087</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Configuraciones">
+      <option name="closed" value="true" />
+      <created>1762296966479</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1762296966479</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +395,12 @@
     <MESSAGE value="11vo ex" />
     <MESSAGE value="wspace" />
     <MESSAGE value="15vo ex" />
-    <option name="LAST_COMMIT_MESSAGE" value="15vo ex" />
+    <MESSAGE value="14vo ex" />
+    <MESSAGE value="13vo ex" />
+    <MESSAGE value="data reportes" />
+    <MESSAGE value="data inventario" />
+    <MESSAGE value="Configuraciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuraciones" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Yami_m3$scope_global.coverage" NAME="scope_global Coverage Results" MODIFIED="1761568854766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
