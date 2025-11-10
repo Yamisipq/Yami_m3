@@ -231,7 +231,7 @@ def buscar_libro(query: str) -> Catalogo:
         console.print(f"[yellow]No se encontraron libros que contengan '[bold]{query}[/bold]'[/yellow]")
         return resultados
 
-    tabla = Table(title=f"📚 Resultados de búsqueda: '[bold magenta]{query}[/bold magenta]'", show_header=True)
+    tabla = Table(title=f" Resultados de búsqueda: '[bold magenta]{query}[/bold magenta]'", show_header=True)
     tabla.add_column("ID", style="cyan", no_wrap=True)
     tabla.add_column("Título", style="magenta")
     tabla.add_column("Autor", style="green")
@@ -254,7 +254,7 @@ def mostrar_menu() -> None:
     console.print("\n" + "=" * 60, style="bold cyan")
     console.print(
         Panel.fit(
-            "[bold cyan]📚 SISTEMA DE GESTIÓN DE BIBLIOTECA 📚[/bold cyan]",
+            "[bold cyan] SISTEMA DE GESTIÓN DE BIBLIOTECA [/bold cyan]",
             border_style="cyan",
         )
     )
