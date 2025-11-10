@@ -1,6 +1,5 @@
 import csv
 import json
-import os
 from rich.console import Console
 from rich.text import Text
 
@@ -36,8 +35,8 @@ def leer_json(nombre_archivo):
     except json.decoder.JSONDecodeError:
         console.print(f"[red]El archivo '{nombre_archivo}' no es un archivo JSON válido.[/red]")
         return []
-    except Exception as e:
-        console.print(f"[red]Error al leer el archivo[red]")
+    except Exception:
+        console.print("[red]Error al leer el archivo[red]")
         return []
 
 def generar_reporte():
@@ -69,7 +68,7 @@ def generar_reporte():
         cursos_asignados = estudiantes_cursos.get(id_estudiante, [])
 
         lineas_reporte.append(f"\n[{id_estudiante}] Estudiante: {nombre_estudiante}")
-        lineas_reporte.append(f"Cursos Asignados:")
+        lineas_reporte.append("Cursos Asignados:")
         if cursos_asignados:
             for curso in cursos_asignados:  # Esto itera sobre la lista de nombres. ¡Correcto!
                 lineas_reporte.append(f"- {curso}")
@@ -82,7 +81,7 @@ def generar_reporte():
     try:
         with open(REPORTE_FILE, mode='w', encoding='utf-8') as f:
             f.write(reporte_contenido)
-        console.print(f"[green]Reporte generado[/green]")
+        console.print("[green]Reporte generado[/green]")
     except Exception as e:
         console.print(f"[red]Error al generar el reporte: {e}[/red]")
 
