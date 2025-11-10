@@ -1,6 +1,5 @@
 import pytest
 import json
-import os
 from unittest.mock import patch, mock_open, MagicMock
 
 import persis_json as gi

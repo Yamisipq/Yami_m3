@@ -1,6 +1,4 @@
 import pytest
-import os
-import csv
 from unittest.mock import patch, mock_open, MagicMock
 
 import datos_csv as ge
@@ -89,7 +87,7 @@ def test_analizar_calificaciones_calculo_exitoso(mock_console_print):
         {'nombre': 'D', 'edad': '20', 'calificacion': 'invalido'},
     ]
 
-    with patch('builtins.open', new_callable=mock_open) as mock_file:
+    with patch('builtins.open', new_callable=mock_open):
         with patch('csv.DictReader', return_value=csv_data) as mock_reader:
             mock_reader.fieldnames = ["nombre", "edad", "calificacion"]
 

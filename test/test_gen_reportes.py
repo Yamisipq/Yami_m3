@@ -1,6 +1,4 @@
 import pytest
-import os
-import csv
 import json
 from unittest.mock import patch, mock_open, MagicMock
 
@@ -57,7 +55,7 @@ def test_leer_csv_exitoso(mock_estudiantes_data):
 
     csv_content = "id,nombre,email\n1,Ana López,ana@test.com\n2,Juan Pérez,juan@test.com"
 
-    with patch('builtins.open', mock_open(read_data=csv_content)) as mock_file:
+    with patch('builtins.open', mock_open(read_data=csv_content)):
         resultado = gr.leer_csv(gr.ESTUDIANTES_FILE)
 
         assert len(resultado) == 2
