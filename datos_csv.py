@@ -46,7 +46,7 @@ def analizar_calificaciones(nombre_archivo: str) -> dict:
             lector = csv.DictReader(archivo)
 
             if "calificacion" not in lector.fieldnames:
-                console.print(f"[red]No se encontró la columna 'calificacion' en el archivo.[/red]")
+                console.print("[red]No se encontró la columna 'calificacion' en el archivo.[/red]")
                 return resultados
 
             valores = []
@@ -59,7 +59,7 @@ def analizar_calificaciones(nombre_archivo: str) -> dict:
                         console.print(f"[yellow]⚠ Valor no numérico ignorado: '{valor}'[/yellow]")
 
             if not valores:
-                console.print(f"[red]No hay valores válidos en la columna 'calificacion'.[/red]")
+                console.print("[red]No hay valores válidos en la columna 'calificacion'.[/red]")
                 return resultados
 
             resultados["promedio"] = sum(valores) / len(valores)
