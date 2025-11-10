@@ -71,7 +71,7 @@ def mostrar_tareas(tareas: list[str]) -> None:
         console.print("[yellow]No hay tareas registradas.[/yellow]")
         return
 
-    tabla = Table(title="📋 Lista de Tareas")
+    tabla = Table(title=" Lista de Tareas")
     tabla.add_column("N°", justify="right", style="cyan", no_wrap=True)
     tabla.add_column("Tarea", style="white")
 
